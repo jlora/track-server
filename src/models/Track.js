@@ -4,9 +4,10 @@ const pointSchema = new mongoose.Schema({
   timestamp: Number,
   coords: {
     latitude: Number,
-    longitud: Number,
+    longitude: Number,
     altitude: Number,
     accuracy: Number,
+    altitudeAccuracy: Number,
     heading: Number,
     speed: Number
   }
